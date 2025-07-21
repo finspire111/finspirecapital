@@ -36,7 +36,7 @@ const DetailsSection = () => {
       company: ""
     });
   };
-  return <section id="details" className="w-full bg-white py-0">
+  return <section id="details" className="w-full bg-gray-900 py-12">
       <div className="container px-4 sm:px-6 lg:px-8 mx-auto">
         <div className="grid grid-cols-1 gap-6 md:gap-8 lg:grid-cols-2">
           {/* Left Card - Why Choose Finspire */}
@@ -48,23 +48,20 @@ const DetailsSection = () => {
             backgroundPosition: "center"
           }}>
               <h2 className="text-2xl sm:text-3xl font-display text-white font-bold">
-                Why Choose Finspire Capital?
+                Why Choose Finspire Capital
               </h2>
             </div>
             
             {/* Card Content */}
-            <div className="bg-white p-4 sm:p-8" style={{
-            backgroundColor: "#FFFFFF",
-            border: "1px solid #ECECEC"
-          }}>
+            <div className="bg-gray-800 p-4 sm:p-8 border border-gray-700">
               <div className="space-y-4 sm:space-y-6">
                 <div className="flex items-start gap-3">
                   <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center mt-1 flex-shrink-0">
                     <span className="text-primary text-lg">🔐</span>
                   </div>
                   <div className="flex-1">
-                    <div className="p-3 rounded-lg bg-primary/5 backdrop-blur-sm border border-primary/10">
-                      <span className="font-semibold text-base text-gray-800">Client-first, ethics-based advisory</span>
+                    <div className="p-3 rounded-lg bg-primary/20 backdrop-blur-sm border border-primary/30">
+                      <span className="font-semibold text-base text-white">Trusted by 500+ clients across India and globally</span>
                     </div>
                   </div>
                 </div>
@@ -74,19 +71,19 @@ const DetailsSection = () => {
                     <span className="text-primary text-lg">📊</span>
                   </div>
                   <div className="flex-1">
-                    <div className="p-3 rounded-lg bg-primary/5 backdrop-blur-sm border border-primary/10">
-                      <span className="font-semibold text-base text-gray-800">Deep market experience, not generic tips</span>
+                    <div className="p-3 rounded-lg bg-primary/20 backdrop-blur-sm border border-primary/30">
+                      <span className="font-semibold text-base text-white">Client-first, ethics-based advisory</span>
                     </div>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-3">
                   <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center mt-1 flex-shrink-0">
-                    <span className="text-primary text-lg">🤝</span>
+                    <span className="text-primary text-lg">📊</span>
                   </div>
                   <div className="flex-1">
-                    <div className="p-3 rounded-lg bg-primary/5 backdrop-blur-sm border border-primary/10">
-                      <span className="font-semibold text-base text-gray-800">Trusted by 500+ investors</span>
+                    <div className="p-3 rounded-lg bg-primary/20 backdrop-blur-sm border border-primary/30">
+                      <span className="font-semibold text-base text-white">Real-world insights, not textbook theory</span>
                     </div>
                   </div>
                 </div>
@@ -96,18 +93,18 @@ const DetailsSection = () => {
                     <span className="text-primary text-lg">🧠</span>
                   </div>
                   <div className="flex-1">
-                    <div className="p-3 rounded-lg bg-primary/5 backdrop-blur-sm border border-primary/10">
-                      <span className="font-semibold text-base text-gray-800">Human + data-driven approach</span>
+                    <div className="p-3 rounded-lg bg-primary/20 backdrop-blur-sm border border-primary/30">
+                      <span className="font-semibold text-base text-white">Long-term thinking over short-term noise</span>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="mt-8 p-4 bg-gray-50 rounded-lg border-l-4 border-primary">
-                <blockquote className="text-gray-700 italic">
-                  "My mission is to help people stop gambling with money — and start growing it smartly."
+              <div className="mt-8 p-4 bg-primary/20 rounded-lg border-l-4 border-primary">
+                <blockquote className="text-white italic">
+                  "My mission is to help people stop gambling with money — and start growing it wisely."
                 </blockquote>
-                <cite className="text-sm text-gray-600 mt-2 block">— Yuvraj Shukla</cite>
+                <cite className="text-sm text-gray-300 mt-2 block">— Yuvraj Shukla, Founder</cite>
               </div>
             </div>
           </div>
@@ -129,11 +126,8 @@ const DetailsSection = () => {
             </div>
             
             {/* Card Content - Contact Options */}
-            <div className="bg-white p-4 sm:p-8" style={{
-            backgroundColor: "#FFFFFF",
-            border: "1px solid #ECECEC"
-          }}>
-              <p className="text-gray-600 mb-6 text-center">No pressure. Just a real conversation about what's possible for your future.</p>
+            <div className="bg-gray-800 p-4 sm:p-8 border border-gray-700">
+              <p className="text-gray-300 mb-6 text-center">No pressure. Just a real conversation about what's possible.</p>
               
               <div className="space-y-4">
                 <a 

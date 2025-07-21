@@ -16,10 +16,7 @@ const Footer = () => {
           </div>
           <div className="border-t border-gray-800 pt-6">
             <p className="text-center text-gray-400 text-sm">
-              Finspire Capital © 2025 | Built with 💛 by{" "}
-              <a href="https://lovable.dev" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
-                Lovable.dev
-              </a>
+              Finspire Capital © 2025
             </p>
           </div>
         </div>

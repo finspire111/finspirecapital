@@ -10,28 +10,10 @@ interface TestimonialProps {
 }
 
 const testimonials: TestimonialProps[] = [{
-  content: "I finally stopped chasing random stocks. Yuvraj's insights gave me the confidence to build long-term wealth.",
-  author: "Rahul T.",
-  role: "Civil Engineer",
-  gradient: "from-blue-700 via-indigo-800 to-purple-900",
-  backgroundImage: "/background-section1.png"
-}, {
-  content: "His knowledge of the market is unmatched. I trust him more than any app or YouTube guru.",
-  author: "Neha S.",
-  role: "Small Business Owner",
-  gradient: "from-indigo-900 via-purple-800 to-orange-500",
-  backgroundImage: "/background-section2.png"
-}, {
-  content: "Yuvraj helped me restructure my portfolio completely. My returns improved by 45% in just 8 months.",
-  author: "Amit K.",
+  content: "In just 3 months, I built a smarter portfolio than I had in 3 years. Yuvraj's advice is gold.",
+  author: "Rajiv N.",
   role: "Software Engineer",
-  gradient: "from-purple-800 via-pink-700 to-red-500",
-  backgroundImage: "/background-section3.png"
-}, {
-  content: "Finally found someone who explains the market without confusing jargon. Clear strategies, real results.",
-  author: "Priya M.",
-  role: "Marketing Manager",
-  gradient: "from-orange-600 via-red-500 to-purple-600",
+  gradient: "from-blue-700 via-indigo-800 to-purple-900",
   backgroundImage: "/background-section1.png"
 }];
 
@@ -59,7 +41,7 @@ const TestimonialCard = ({
 const Testimonials = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
 
-  return <section className="py-12 bg-white relative" id="testimonials" ref={sectionRef}> {/* Reduced from py-20 */}
+  return <section className="py-12 bg-gray-800 relative" id="testimonials" ref={sectionRef}>
       <div className="section-container opacity-0 animate-on-scroll">
         <div className="flex items-center gap-4 mb-6">
           <div className="pulse-chip">
@@ -68,10 +50,12 @@ const Testimonials = () => {
           </div>
         </div>
         
-        <h2 className="text-5xl font-display font-bold mb-12 text-left">What Our Clients Say</h2>
+        <h2 className="text-5xl font-display font-bold mb-12 text-left text-white">What Our Clients Say</h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {testimonials.map((testimonial, index) => <TestimonialCard key={index} content={testimonial.content} author={testimonial.author} role={testimonial.role} gradient={testimonial.gradient} backgroundImage={testimonial.backgroundImage} />)}
+        <div className="flex justify-center">
+          <div className="max-w-2xl">
+            {testimonials.map((testimonial, index) => <TestimonialCard key={index} content={testimonial.content} author={testimonial.author} role={testimonial.role} gradient={testimonial.gradient} backgroundImage={testimonial.backgroundImage} />)}
+          </div>
         </div>
       </div>
     </section>;

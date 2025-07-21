@@ -24,7 +24,7 @@ const Newsletter = () => {
       setIsSubmitting(false);
     }, 1000);
   };
-  return <section id="contact" className="bg-gray-50 py-16">
+  return <section id="contact" className="bg-gray-900 py-16">
       <div className="section-container opacity-0 animate-on-scroll">
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex items-center justify-center gap-4 mb-6">
@@ -34,9 +34,9 @@ const Newsletter = () => {
             </div>
           </div>
           
-          <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">Ready to Transform Your Wealth?</h2>
-          <p className="text-xl text-gray-700 mb-10 max-w-2xl mx-auto">
-            Take the first step towards financial freedom. Connect with Yuvraj for a personalized consultation.
+          <h2 className="text-4xl md:text-5xl font-display font-bold mb-4 text-white">Let's Talk About Your Money Goals</h2>
+          <p className="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
+            No pressure. Just a real conversation about what's possible.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -63,7 +63,7 @@ const Newsletter = () => {
             </a>
           </div>
 
-          <p className="text-sm text-gray-600 mt-6">Free 15-Min Discovery Call Available</p>
+          <p className="text-sm text-primary mt-6">Free 15-Min Discovery Call Available</p>
         </div>
       </div>
     </section>;
