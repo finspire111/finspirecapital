@@ -47,12 +47,12 @@ const Navbar = () => {
       <div className="container flex items-center justify-between px-4 sm:px-6 lg:px-8">
         <a 
           href="#" 
-          className="flex items-center space-x-2"
           onClick={(e) => {
             e.preventDefault();
             scrollToTop();
           }}
-          aria-label="Pulse Robot"
+          className="flex items-center space-x-2"
+          aria-label="Finspire Capital"
         >
           <img 
             src="/logo.svg" 
