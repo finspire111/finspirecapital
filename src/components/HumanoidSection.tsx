@@ -88,20 +88,20 @@ const HumanoidSection = () => {
       className="relative" 
       style={{ height: '300vh' }}
     >
-      <section className="w-full h-screen py-10 md:py-16 sticky top-0 overflow-hidden bg-gray-900" id="why-humanoid">
+      <section className="w-full h-screen py-10 md:py-16 sticky top-0 overflow-hidden bg-background" id="about-yuvraj">
         <div className="container px-6 lg:px-8 mx-auto h-full flex flex-col">
           <div className="mb-2 md:mb-3">
             <div className="flex items-center gap-4 mb-2 md:mb-2 pt-8 sm:pt-6 md:pt-4">
-              <div className="pulse-chip opacity-0 animate-fade-in" style={{
+              <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 text-primary border border-primary/20 opacity-0 animate-fade-in font-medium" style={{
                 animationDelay: "0.1s"
               }}>
-                <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-primary text-white mr-2">02</span>
-                <span>About Yuvraj</span>
+                <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-primary text-primary-foreground mr-3 text-sm font-bold">02</span>
+                <span>Meet Yuvraj Shukla</span>
               </div>
             </div>
             
-            <h2 className="section-title text-3xl sm:text-4xl md:text-5xl font-display font-bold mb-1 md:mb-2 text-white">
-              Your Trusted Guide
+            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold mb-1 md:mb-2 text-foreground">
+              Your Trusted Guide to <span className="text-primary">Market Success</span>
             </h2>
           </div>
           
@@ -117,25 +117,25 @@ const HumanoidSection = () => {
               }}
             >
               <div
-                className="absolute inset-0 z-0 bg-gradient-to-b from-pulse-900/40 to-dark-900/80"
+                className="absolute inset-0 z-0 bg-gradient-to-br from-primary/20 to-accent/10"
                 style={{
                   backgroundImage: "url('/background-section1.png')",
                   backgroundSize: "cover",
                   backgroundPosition: "top center",
-                  backgroundBlendMode: "overlay"
+                  backgroundBlendMode: "soft-light"
                 }}
               ></div>
               
               <div className="absolute top-4 right-4 z-20">
-                <div className="inline-flex items-center justify-center px-4 py-2 rounded-full bg-white/20 backdrop-blur-sm text-white">
-                  <span className="text-sm font-medium">Experience</span>
+                <div className="inline-flex items-center justify-center px-4 py-2 rounded-full bg-primary/20 backdrop-blur-sm text-primary border border-primary/30">
+                  <span className="text-sm font-semibold">Experience</span>
                 </div>
               </div>
               
               <div className="relative z-10 p-5 sm:p-6 md:p-8 h-full flex items-center">
                 <div className="max-w-lg">
-                  <h3 className="text-2xl sm:text-3xl md:text-4xl font-display text-white font-bold leading-tight mb-4">
-                    I'm Yuvraj Shukla, founder of Finspire Capital and your personal guide to smart, strategic investing.
+                  <h3 className="text-2xl sm:text-3xl md:text-4xl font-display text-foreground font-bold leading-tight mb-4">
+                    I'm <span className="text-primary">Yuvraj Shukla</span>, founder of Finspire Capital and your personal guide to smart, strategic investing.
                   </h3>
                 </div>
               </div>
@@ -153,25 +153,25 @@ const HumanoidSection = () => {
               }}
             >
               <div
-                className="absolute inset-0 z-0 bg-gradient-to-b from-pulse-900/40 to-dark-900/80"
+                className="absolute inset-0 z-0 bg-gradient-to-br from-accent/20 to-primary/10"
                 style={{
                   backgroundImage: "url('/background-section2.png')",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
-                  backgroundBlendMode: "overlay"
+                  backgroundBlendMode: "soft-light"
                 }}
               ></div>
               
               <div className="absolute top-4 right-4 z-20">
-                <div className="inline-flex items-center justify-center px-4 py-2 rounded-full bg-white/20 backdrop-blur-sm text-white">
-                  <span className="text-sm font-medium">Expertise</span>
+                <div className="inline-flex items-center justify-center px-4 py-2 rounded-full bg-accent/20 backdrop-blur-sm text-accent border border-accent/30">
+                  <span className="text-sm font-semibold">Expertise</span>
                 </div>
               </div>
               
               <div className="relative z-10 p-5 sm:p-6 md:p-8 h-full flex items-center">
                 <div className="max-w-lg">
-                  <h3 className="text-2xl sm:text-3xl md:text-4xl font-display text-white font-bold leading-tight mb-4">
-                    With 9+ years in the Indian stock market, I've worked with beginners, professionals, and NRI clients to transform their savings into meaningful long-term portfolios.
+                  <h3 className="text-2xl sm:text-3xl md:text-4xl font-display text-foreground font-bold leading-tight mb-4">
+                    With <span className="text-accent">9+ years</span> in the Indian stock market, I've helped beginners, professionals, and NRI clients transform their financial future.
                   </h3>
                 </div>
               </div>
@@ -189,27 +189,27 @@ const HumanoidSection = () => {
               }}
             >
               <div
-                className="absolute inset-0 z-0 bg-gradient-to-b from-pulse-900/40 to-dark-900/80"
+                className="absolute inset-0 z-0 bg-gradient-to-br from-primary/30 to-accent/20"
                 style={{
                   backgroundImage: "url('/background-section3.png')",
                   backgroundSize: "cover",
                   backgroundPosition: "bottom center",
-                  backgroundBlendMode: "overlay"
+                  backgroundBlendMode: "soft-light"
                 }}
               ></div>
               
               <div className="absolute top-4 right-4 z-20">
-                <div className="inline-flex items-center justify-center px-4 py-2 rounded-full bg-white/20 backdrop-blur-sm text-white">
-                  <span className="text-sm font-medium">Philosophy</span>
+                <div className="inline-flex items-center justify-center px-4 py-2 rounded-full bg-primary/20 backdrop-blur-sm text-primary border border-primary/30">
+                  <span className="text-sm font-semibold">Philosophy</span>
                 </div>
               </div>
               
               <div className="relative z-10 p-5 sm:p-6 md:p-8 h-full flex items-center">
                 <div className="max-w-lg">
-                  <h3 className="text-2xl sm:text-3xl md:text-4xl font-display text-white font-bold leading-tight mb-4">
-                    My approach is simple: no gambling, no blind tips — only <span className="text-primary">time-tested market experience</span>, psychological insight, and data-backed decisions.
+                  <h3 className="text-2xl sm:text-3xl md:text-4xl font-display text-foreground font-bold leading-tight mb-4">
+                    My approach is simple: no gambling, no blind tips — only <span className="text-primary">time-tested analysis</span>, deep research, and a vision for long-term growth.
                   </h3>
-                  <p className="text-white/90 text-lg mt-4">"Real Advice. Real Growth. No Noise."</p>
+                  <p className="text-muted-foreground text-xl mt-6 italic font-medium">"Real Advice. Real Growth. No Noise."</p>
                 </div>
               </div>
             </div>
